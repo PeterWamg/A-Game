@@ -38,3 +38,23 @@ cargo run
 7. **A 'push' occurs if the player and dealer have the same total, and no one wins.**
    If the player and dealer have the same total, it results in a 'push,' and no one wins the round.
 
+
+
+## Gameplay Example
+
+```plaintext
+Player's hand: [Card { value: 2 }, Card { value: 7 }]
+Dealer's first card: Card { value: 10 }
+Your total points: 9
+Do you want to 'Hit'? (y/n)
+y
+You drew a card: Some(Card { value: 8 })
+Your total points: 17
+Do you want to 'Hit'? (y/n)
+n
+Your final hand: [Card { value: 2 }, Card { value: 7 }, Card { value: 8 }]
+Your final points: 17
+Dealer's final hand: [Card { value: 10 }, Card { value: 4 }, Card { value: 8 }]
+Dealer's final points: 22
+You win!
+Current wins: Player 1 - Dealer 0
