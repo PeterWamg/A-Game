@@ -6,13 +6,13 @@ Welcome to the Rust Blackjack game! This is a simple console-based simulation of
 
 This game follows the rules of Blackjack, where players aim to achieve a hand total as close to 21 as possible without exceeding it. The game is played against a computer dealer.
 
-Running the Game
+## Running the Game
 To run the game, use the following command:
 
 cargo run
 
 
-Game Rules
+## Game Rules
 Each player is dealt two cards initially.
 The goal is to get a hand total as close to 21 as possible without exceeding it.
 Numbered cards are worth their face value, face cards (Jack, Queen, King) are worth 10, and Aces can be worth 1 or 11.
